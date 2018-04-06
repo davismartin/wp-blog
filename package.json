@@ -1,0 +1,47 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "wp-blog",
+  "version": "1.0.0",
+  "description": "testing site for word press themes",
+  "main": "index.js",
+  "author": "davis martin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-addons-perf": "^15.4.2",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^4.5.0",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.21.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.11.1",
+    "react-hot-loader": "^4.0.1"
+  }
+}
