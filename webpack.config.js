@@ -7,13 +7,13 @@ const config = {
   devtool:
     process.env.NODE_ENV === "development" ? "cheap-eval-source-map" : false,
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "./wp-content/themes/my-blog-theme/assets/"),
     filename: "bundle.js",
-    publicPath: "/themes/my-blog-theme/"
+    publicPath: "./wp-content/themes/my-blog-theme/assets/"
   },
   devServer: {
     hot: true,
-    publicPath: "/themes/my-blog-theme/",
+    publicPath: "./wp-content/themes/my-blog-theme/assets/",
     historyApiFallback: true
   },
   resolve: {
